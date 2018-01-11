@@ -22,4 +22,4 @@ This Docker image is based off the official OpenJDK image for Java 8, and it see
 
 ## Use
 
-Inside the container, the directory at `/home/jgrasp/src` will be a volume corresponding to the `inner_src` directory in this repository. jGRASP should otherwise compile and run things as normal.
+Inside the container, the directory at `/home/jgrasp/src` will be a volume corresponding to the `inner_src` directory in this repository. jGRASP should otherwise compile and run things as normal. Additionally, settings will be stored in the local directory `.grasp_settings`. You don't need to touch this, it just ensures that your font choices etc. persist between runs of the container.
