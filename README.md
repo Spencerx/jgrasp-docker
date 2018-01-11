@@ -9,7 +9,7 @@ This Docker image is based off the official OpenJDK image for Java 8, and it see
 
 ### Initial setup
 
-  1. Install the latest version of [XQuartz](https://www.xquartz.org/). *NOTE*: You must log out and back in to 
+  1. Install the latest version of [XQuartz](https://www.xquartz.org/). *NOTE*: You must log out and back in to make XQuartz your default X server.
   2. Download the latest jGRASP Linux zip file from [here](http://spider.eng.auburn.edu/user-cgi/grasp/grasp.pl?;dl=download_jgrasp.html)
   3. Move the zip file to this directory and name it `jgrasp.zip`
   4. Ensure that your network interface is `en0` by running `ifconfig` and looking for the interface name that matches your network connection. If it's something else like `en1`, replace `en0` with the proper interface name in `run.sh`
